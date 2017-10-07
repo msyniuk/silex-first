@@ -7,11 +7,18 @@ use Silex\Provider\ServiceControllerServiceProvider;
 use Silex\Provider\HttpFragmentServiceProvider;
 use Silex\Provider\DoctrineServiceProvider;
 use Dflydev\Provider\DoctrineOrm\DoctrineOrmServiceProvider;
+use Silex\Provider\FormServiceProvider;
+
+
 
 $app = new Application();
 $app->register(new ServiceControllerServiceProvider());
 $app->register(new AssetServiceProvider());
 $app->register(new TwigServiceProvider());
+$app->register(new FormServiceProvider());
+//$app->register(new Silex\Provider\TranslationServiceProvider(), array(
+//    'translator.domains' => array(),
+//));
 $app->register(new HttpFragmentServiceProvider());
 $app->register(new DoctrineOrmServiceProvider());
 $app->register(new DoctrineServiceProvider(),[

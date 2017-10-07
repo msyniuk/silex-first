@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c99606c0eb2a358234cd1e907a4e7a98",
+    "content-hash": "fae8ed136240e653dabd69c87dc4a932",
     "packages": [
         {
             "name": "dflydev/doctrine-orm-service-provider",
@@ -1708,16 +1708,16 @@
         },
         {
             "name": "symfony/form",
-            "version": "v3.3.9",
+            "version": "v3.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/form.git",
-                "reference": "36f2059a7b9d8db4f305c284a78848eb5a3dd455"
+                "reference": "b1c9d58041c3ce9b7238d1ff6b164f0b9547ed80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/form/zipball/36f2059a7b9d8db4f305c284a78848eb5a3dd455",
-                "reference": "36f2059a7b9d8db4f305c284a78848eb5a3dd455",
+                "url": "https://api.github.com/repos/symfony/form/zipball/b1c9d58041c3ce9b7238d1ff6b164f0b9547ed80",
+                "reference": "b1c9d58041c3ce9b7238d1ff6b164f0b9547ed80",
                 "shasum": ""
             },
             "require": {
@@ -1783,7 +1783,7 @@
             ],
             "description": "Symfony Form Component",
             "homepage": "https://symfony.com",
-            "time": "2017-08-03T08:59:45+00:00"
+            "time": "2017-10-02T06:42:24+00:00"
         },
         {
             "name": "symfony/http-foundation",
